@@ -1,0 +1,674 @@
+*, html,body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy/);
+}
+.glavnaya{
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+.block-1{
+    width: 100%;
+    margin: auto;
+    background: #FAFAFB url(../img/img1.png) no-repeat right;
+}
+header{
+    width: 1170px;
+    flex-wrap: wrap;
+    padding-top: 31px;
+    margin: auto;
+}
+.inner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-1{
+    width: 147px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #E1E1E1;
+    margin-right: 18px;
+    text-decoration: none;
+}
+.logo-2{
+    width: 193px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 25px;
+ 
+}
+.logo-3{
+    width: 2px;
+    height: 40px;
+    
+}
+.second{
+    display: flex;
+}
+.third{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    cursor: pointer;
+}
+.whatsapp{
+    width: 43px;
+    height: 43px;
+    background: #2DD038 url(../img/WhatsApp.png) no-repeat center;
+    border-radius: 50%;
+    box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+    margin-right: 30px;
+}
+.viber{
+    width: 43px;
+    height: 43px;
+    background: #7B519D url(../img/Group\ 3.png) no-repeat center;
+    border-radius: 50%;
+    box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+    margin-right: 30px;
+
+}
+.telegram{
+    width: 43px;
+    height: 43px;
+    background: #5BBAF0 url(../img/Group\ 3.png) no-repeat center;
+    border-radius: 50%;
+    box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+    margin-right: 30px;
+}
+.contact{
+    width: 259px;
+}
+.tel{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.tel::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(../img/tel.png) no-repeat;
+    display: block;
+    cursor: pointer;
+}
+.email{
+    font-size: 17px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.email::before{
+    content: '';
+    width: 16px;
+    height: 12px;
+    margin-right: 5px;
+    background: url(../img/Shape.png) no-repeat;
+    display: block;
+    cursor: pointer;
+}
+.button{
+    width: 195px;
+    height: 44px;
+    border-radius: 3px;
+    padding: 11px 27px;
+    border: 0;
+    color: #fff;
+    background: linear-gradient(90deg, #F6BD60 0%, #EB9355 80.38%, #E88952 100%);
+    box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+    font-size: 18px;
+    font-family: Gilroy;
+    cursor: pointer;
+}
+.four{
+    margin-top: 40px;
+}
+.four a{
+    text-decoration: none;
+    color: black;
+}
+.menu-2{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap{
+    width: 1170px;
+    margin: auto;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 51px;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    width: 60%;
+    margin-top: 40px;
+}
+.att{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+    margin-top: 30px;
+}
+.button-2{
+    width: 211px;
+    border-radius: 3px;
+    padding: 16px 0;
+    border: 0;
+    color: #fff;
+    background: linear-gradient(90deg, #87AFF1 0%, #6C80CB 100%, #6C80CB 100%);
+    box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+    font-size: 16px;
+    font-family: Gilroy;
+    cursor: pointer;
+    margin-top: 33px;
+    
+}
+.block-2{
+    background: #fff;
+}
+.doc{
+    width: 1170px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    margin: auto;
+}
+.doc-1{
+    padding-top: 46px;
+}
+.block-2-wrap{
+    width: 1170px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-content: center;
+}
+.inner-2{
+    width: 262px;
+    height: 190px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    color: #333333;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.1);
+}
+.img-1{
+    margin: 40px 30px 30px 16px;
+}
+.fireman{
+    margin: 32px 103px 17px 103px; 
+}
+
+.img-2{
+    margin: 40px 30px 30px 0;
+}
+.crane{
+    margin: 32px 98px 15px 98px;
+}
+.img-3{
+    margin: 40px 30px 30px 0;
+}
+.excavator{
+    margin: 30px 98px 17px 98px;
+}
+.img-4{
+    margin: 40px 16px 30px 0;
+}
+.settings{
+    margin: 32px 97px 15px 99px;
+}
+.img-5{
+    margin: 0 30px 30px 16px;
+}
+.toxic{
+    margin: 32px 94px 15px 95px;
+}
+.img-6{
+    margin: 0 30px 30px 0;
+}
+.worker{
+    margin: 32px 105px 17px 106px;
+}
+.img-7{
+    margin: 0 30px 30px 0;
+}
+.extinguisher{
+    margin: 28px 110px 15px 110px;
+}
+.img-8{
+    margin: 0 16px 30px 0;
+}
+.factory{
+    margin: 32px 97px 17px 98px;
+}
+.img-9{
+    margin: 0px 30px 70px 16px;
+}
+.engineer{
+    margin: 30px 103px 13px 97px;
+}
+.img-10{
+    margin: 0 30px 70px 0;
+}
+.plug{
+    margin: 33px 99px 16px 99px;
+}
+.img-11{
+    margin: 0 30px 70px 0;
+}
+.curve{
+    margin: 31px 98px 16px 98px;
+}
+.img-12{
+    margin: 0 16px 70px 0;
+}
+.tracktor{
+    margin: 31px 91px 15px 93px;
+}
+.block-3{
+    background: #F6F6F6;
+    
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.document{
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.documents{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #FFFFFF url(../img/documents.png) no-repeat center;
+}
+.documents-1{
+    width: 100%;
+    color: #333333;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    
+    
+}
+.documents-2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+    margin-top: 10px;
+}
+.st{
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.star{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background: #FFFFFF url(../img/Star.png) no-repeat center;
+    display: flex;
+    margin: 42px 82px 15px 82px;
+}
+.file-1{
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.file{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background: #FFFFFF url(../img/file.png) no-repeat center;
+    margin: 42px 82px 15px 82px;
+}
+.delivery{
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.car{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background: #FFFFFF url(../img/car.png) no-repeat center;
+    margin: 42px 82px 15px 82px;
+}
+.block-4{
+    width: 1172px;
+    background: #fff;
+    margin: auto;
+}
+.education{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #333333;
+    padding-top: 47px;
+}
+.block-4-wrap{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+}
+.item-1{
+    width: 265px;
+    text-align: center;
+    margin-top: 30px;
+}    
+.group{
+    color: #53B43B;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.group::before{
+    content: url(../img/galochka.png);
+}
+.cena{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+}
+.menu-3{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 76px;
+}
+.menu-3-1{
+    margin-right: 9px;
+}
+.menu-3-2{
+    margin-right: 10px;
+}
+.menu-3-link{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #84AAED;
+}
+.menu-3-link-1{
+    width: 11px;
+    height: 11px;
+    background: #E4E4E4;
+    display: block;
+    border-radius: 50%;
+    
+}
+.block-5{
+    background: #F6F6F6;
+}
+.serificate{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #333333;
+    padding-top: 48px;
+}
+.block-5-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 86px;
+    margin-bottom: 74px;
+}
+.menu-4{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-6{
+    background: #fff;
+}
+.block-6-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 21px;
+    max-width: 1170px;
+}
+.news{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #333333;
+    padding-top: 52px;
+}
+.news-1{
+    width: 555px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
+    background: #FAFAFB url(../img/Mask.png) no-repeat right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-1-inner-1{
+    width: 70%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.colortext{
+    color: #86ADEF;
+}
+.news-1-inner-2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    padding-top: 20px;
+}
+.pasport{
+    width: 300px;
+    height: 200px;
+}
+.date{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ABABAB;
+    margin-left: 23px;
+}
+.news-2{
+    width: 262px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
+}
+.img-block-6{
+    margin: 27px 23px 10px 23px;
+}
+.news-2-inner-1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #333333;
+    margin: 15px 23px 0 23px;
+}
+.news-2-inner-2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin: 15px 23px;
+}
+.button-3{
+    width: 225px;
+    height: 46px;
+    border: 2px solid #6D81CC;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 70px;
+    color: #6D81CC;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer{
+    background: #333333;
+}
+.footer-inner-1{
+    width: 359px;
+}
+.title-7{
+    color: #fff;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 56px;
+    margin-bottom: 30px;
+}
+.color{
+    color: #fff;
+    text-decoration: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    
+}
+.telegram_name{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.viber_name{
+    margin-top: 21px;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.phone{
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.margin{
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.button-end{
+    width: 262px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.logo-end{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+    color: rgba(255, 255, 255, 0.12653);
+    text-decoration: none;
+    cursor: pointer;
+}
+.line{
+    margin-top: 30px;
+}
+.copyright{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #565656;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 2px solid #4E4E4E;
+
+}
